@@ -6,9 +6,13 @@
  */
 int main(void)
 {
-	int alpha[26] = 'abcdefghijklmnopqrstuvwxyz';
-	int ALPHA = toupper(alpha);
+	char alpha[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int a;
 
-	putchar(alpha + ALPHA);
+	for (a = 0; a < 52; a++)
+	{
+		putchar(alpha[i]);
+	}
+	putchar('\n');
 	return (0);
 }
