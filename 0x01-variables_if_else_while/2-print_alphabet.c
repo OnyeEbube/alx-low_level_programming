@@ -6,11 +6,12 @@
  */
 int main(void)
 {
-	char alpha = a;
+	char alpha = "a";
 
 	for (; alpha <= 122; alpha++)
 	{
-		putchar(alpha\n);
+		putchar(alpha);
 	}
+	putchar('\n');
 	return (0);
 }
