@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - Prints the numbers between 0 and 9 with lines ans spaces
- * 
+ *
  * Return: always 0
  */
 int main(void)
