@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int alpha = "a";
+	int alpha = 'a';
 
 	for (; alpha <= 122; alpha++)
 	{
