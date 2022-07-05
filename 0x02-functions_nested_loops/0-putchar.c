@@ -5,10 +5,9 @@
  *
  * Return: Always 0 for success
  */
-int _putchar(char c);
 int main(void)
 {
-	_putchar(45);
+	_putchar(95);
 	_putchar(112);
 	_putchar(117);
 	_putchar(116);
