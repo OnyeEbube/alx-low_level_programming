@@ -11,7 +11,7 @@ void times_table(void)
 	{
 		for (b = 0; b <= 9; b++)
 		{
-			_putchar((a * b) + 48);
+			_putchar((a * b) + '0');
 			if (b == 9)
 				break;
 			_putchar(',');
