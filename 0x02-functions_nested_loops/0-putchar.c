@@ -1,9 +1,11 @@
-#include <main.h>
+#include <stdio.h>
+#include "main.h"
 /**
  * main - Entry point
  *
  * Return: Always 0 for success
  */
+int _putchar(char c);
 int main(void)
 {
 	_putchar(45);
