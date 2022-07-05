@@ -1,48 +1,25 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - Prints any number down to 98
  * @n: The integer to be checked
  *
- * Return: 0 for success
+ * Return: no return
  */
-int print_to_98(int n)
+void print_to_98(int n)
 {
 	if (n > 98)
 	{
-		int l;
-
-		for (l = n; l >= 98; l--)
+		for (; n > 98; n--)
 		{
-			_putchar((l / 10) + 48);
-			_putchar((l % 10) + 48);
-			if (l == 98)
-			{
-				break;
-			}
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", n);
 		}
 	}
-	else if (n == 98)
+	else if (n < 98)
 	{
-		_putchar((n / 10) + 48);
-		_putchar((n % 10) + 48);
-	}
-	else
-	{
-		int m;
-
-		for (m = n; m <= 98; m++)
+		for (; n < 98; n++)
 		{
-			_putchar((m / 10) + 48);
-			_putchar((m % 10) + 48);
-			if (m == 98)
-			{
-				break;
-			}
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", n);
 		}
 	}
-	return (0);
+	printf("%d\n", n);
 }
