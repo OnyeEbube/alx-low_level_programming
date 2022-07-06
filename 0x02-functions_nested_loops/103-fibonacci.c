@@ -12,7 +12,7 @@ int main(void)
 	num1 = 1;
 	num2 = 2;
 	fn = num1 + num2;
-	n = 0;
+	n = 2;
 	while (fn < 4000000)
 	{
 		if (fn % 2 == 0)
