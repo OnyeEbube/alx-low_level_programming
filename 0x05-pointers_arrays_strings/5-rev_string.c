@@ -10,10 +10,11 @@
 void rev_string(char *s)
 {
 	int i;
+	char rev;
 
 	for (i--; i >= 0; i--)
 	{
-		char rev = s[i];
+		rev = s[i];
 	}
 	s = rev;
 }
