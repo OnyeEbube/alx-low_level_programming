@@ -11,7 +11,6 @@ void puts2(char *str)
 {
 	int i;
 	int a;
-	char *save;
 
 	while (i >= 0)
 	{
@@ -21,10 +20,9 @@ void puts2(char *str)
 		}
 		i++;
 	}
-	save = str;
-	for (a = 0; a < (i - 1); a++)
+	for (a = 0; a < (i - 1); a + 2)
 	{
-		_putchar(save[a]);
+		_putchar(str[a]);
 		_putchar('\n');
 	}
 }
