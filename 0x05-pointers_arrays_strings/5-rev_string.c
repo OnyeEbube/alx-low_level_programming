@@ -10,7 +10,7 @@
 void rev_string(char *s)
 {
 	int i = 0;
-	char rev;
+	char *rev;
 
 	while (i >= 0)
 	{
@@ -24,5 +24,5 @@ void rev_string(char *s)
 	{
 		rev = s[i];
 	}
-	*s = rev;
+	s = rev;
 }
