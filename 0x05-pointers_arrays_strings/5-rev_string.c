@@ -30,4 +30,5 @@ void rev_string(char *s)
 			*(rev + b) = *(rev + (b - 1));
 			*(rev + (b - 1)) = t;
 		}
+	}
 }
