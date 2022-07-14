@@ -5,28 +5,19 @@
  * @s1: The first string
  * @s2: The other string
  *
- * Return: Always 1.
+ * Return: Always ret.
  */
 
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0, j = 0, ret;
+	int i = 0, ret;
 
-	while (s1[i] != '\0')
+	while (ret == 0)
+	{
+		if (s1[i] == '\0' && s2[i] == '\0')
+			break;
+		ret = s1[i] - s2[i];
 		i++;
-	while (s2[j] != '\0')
-		j++;
-	if (i < j)
-	{
-		ret = -1;
-	}
-	else if (i > j)
-	{
-		ret = 1;
-	}
-	else
-	{
-		ret = 0;
 	}
 	return (ret);
 }
