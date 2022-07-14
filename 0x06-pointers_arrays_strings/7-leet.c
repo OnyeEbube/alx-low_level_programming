@@ -20,7 +20,7 @@ char *leet(char *s)
 		{
 			if (s[count] == low_letters[j] || (s[count] == upp_letters[j]))
 			{
-				s[count] = numbers[i];
+				s[count] = numbers[j];
 				break;
 			}
 		}
