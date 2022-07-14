@@ -20,13 +20,13 @@ int _strcmp(char *s1, char *s2)
 	{
 		ret = -1;
 	}
-	else if (i == j)
+	else if (i > j)
 	{
-		ret = 0;
+		ret = 1;
 	}
 	else
 	{
-		ret = 1;
+		ret = 0;
 	}
 	return (ret);
 }
