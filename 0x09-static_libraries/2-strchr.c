@@ -1,24 +1,13 @@
 #include "main.h"
 
-
-
 /**
-
  * _strchr - locates a character in a string
-
  * @s: the string
-
  * @c: the regex character
-
  *
-
  * Return: a pointer to the character in the string if found
-
  * and a pointer to the null terminator if not found
-
  */
-
-
 
 char *_strchr(char *s, char c)
 

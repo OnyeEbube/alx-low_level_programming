@@ -1,22 +1,12 @@
 #include "main.h"
 
-
-
 /**
-
  * _strncpy - copies a string and works like splice in js
-
  * @dest: The first string
-
  * @src: The string to be copied
-
  * @n: the position to start copying
-
  * Return: a pointer to dest
-
  */
-
-
 
 char *_strncpy(char *dest, char *src, int n)
 
