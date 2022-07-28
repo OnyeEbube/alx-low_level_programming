@@ -41,11 +41,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	l = j;
 	if (n > l)
 		n = l;
-	c = malloc(m + n);
+	c = malloc(m + n + 1);
 
 	if (c == NULL)
 		return (NULL);
-	for (k = 0; k < (m + n); k++)
+	for (k = 0; k < (m + n + 1); k++)
 	{
 		if (k < m)
 			c[k] = s1[k];
