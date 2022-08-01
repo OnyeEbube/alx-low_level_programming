@@ -1,6 +1,5 @@
-#ifndef __DOG
-#define __DOG
-
+#ifndef _DOG_H
+#define _DOG_H
 
 /**
  * struct dog - a structure that stores some information on a dog
@@ -15,6 +14,6 @@
 struct dog
 {
 	char *name;
-	char *owner;
 	float age;
+	char *owner;
 };
