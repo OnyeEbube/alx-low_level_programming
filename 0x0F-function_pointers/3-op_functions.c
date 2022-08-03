@@ -10,15 +10,7 @@
 
 int op_add(int a, int b)
 {
-	int sum;
-
-	if (a && b)
-	{
-		sum = a + b;
-		return (sum);
-	}
-	printf("Error\n");
-	exit(98);
+	return (a + b);
 }
 
 /**
@@ -72,7 +64,7 @@ int op_div(int a, int b)
  * Return: the remainder of the division
  */
 
-int op_div(int a, int b)
+int op_mod(int a, int b)
 {
 	if (b == 0)
 	{
