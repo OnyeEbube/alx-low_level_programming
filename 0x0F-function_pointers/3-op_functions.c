@@ -57,7 +57,7 @@ int op_div(int a, int b)
 	return (a / b);
 }
 /**
- * op_mod = return the modulus od a and b
+ * op_mod - return the modulus od a and b
  * @a: the number
  * @b: the divisor
  *
