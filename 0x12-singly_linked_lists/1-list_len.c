@@ -2,6 +2,7 @@
 
 /**
  * list_len - returns the number of elements in a linked list
+ * @h: t singly linked list
  *
  * Return: returns the number of elements
  */
