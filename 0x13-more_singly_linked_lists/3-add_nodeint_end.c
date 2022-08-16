@@ -25,7 +25,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	temp = *head;
 	if (*head == NULL)
 	{
-		*head = NULL;
+		*head = new;
 	}
 	else
 	{
