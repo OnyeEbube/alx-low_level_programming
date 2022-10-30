@@ -1,10 +1,9 @@
 #include "hash_tables.h"
 
 /**
- * add_n_hash - creates memory for key and value
+ * create_item - creates memory for key and value
  * @key: the key
  * @value: the value
- * @head: the head of the node
  *
  * Return: a pointer to the item
  */
