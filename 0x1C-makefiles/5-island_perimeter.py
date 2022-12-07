@@ -25,7 +25,7 @@ def island_perimeter(grid):
         grid - is a list of integers
     """
     perimeter = 0
-    for in range(len(grid)):
+    for i in range(len(grid)):
         for j in range(len(grid[i])):
             if grid[i][j]:
                 perimeter += num_water_neighbours(grid, i, j)
